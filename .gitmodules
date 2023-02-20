@@ -5,9 +5,12 @@
 [submodule "ovvc"]
 	path = ovvc
 	url = https://github.com/3EMS2/OpenVVC.git
+	branch = 3ems2
 [submodule "ffmpeg"]
 	path = ffmpeg
 	url = https://github.com/3EMS2/FFmpeg.git
+	branch = 3ems2
 [submodule "mpv"]
 	path = mpv
 	url = https://github.com/3EMS2/mpv.git
+	branch = 3ems2

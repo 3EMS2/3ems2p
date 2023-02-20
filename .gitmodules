@@ -1,0 +1,13 @@
+[submodule "slhdr"]
+	path = slhdr
+	url = https://github.com/3EMS2/SLHDR.git
+	branch = 3ems2
+[submodule "ovvc"]
+	path = ovvc
+	url = https://github.com/3EMS2/OpenVVC.git
+[submodule "ffmpeg"]
+	path = ffmpeg
+	url = https://github.com/3EMS2/FFmpeg.git
+[submodule "mpv"]
+	path = mpv
+	url = https://github.com/3EMS2/mpv.git

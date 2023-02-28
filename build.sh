@@ -29,7 +29,7 @@ export LD_LIBRARY_PATH=$LIBDIR:$LD_LIBRARY_PATH
 export PKG_CONFIG_PATH=$LIBDIR/pkgconfig:$PKG_CONFIG_PATH
 
 cd $SLDIR
-./configure --srcdir=$SLHDRDIR --incdir=$SLHDRINC --prefix=$PREFIX
+./configure --srcdir=$SLHDRDIR --prefix=$PREFIX
 make -j $(nproc)
 make install
 

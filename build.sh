@@ -44,7 +44,7 @@ cd ..
 
 cd $FFDIR
 mkdir -p build && cd build
-../configure --prefix=$PREFIX --enable-libopenvvc --enable-libxml2 --enable-openssl
+../configure --prefix=$PREFIX --enable-libopenvvc --enable-libxml2 --enable-openssl --enable-libfribidi --enable-libfontconfig --enable-libfreetype
 make -j $(nproc)
 make install
 
